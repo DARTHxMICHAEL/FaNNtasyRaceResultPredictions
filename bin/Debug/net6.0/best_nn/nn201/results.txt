@@ -1,0 +1,4 @@
+21.12.2023 12:15:57
+results for top 5 drivers: 64
+number of corrupted lines: 0
+number of duplicated lines: 9
