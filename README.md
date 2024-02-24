@@ -1,4 +1,4 @@
-Mathematical Modeling and Optimization Techniques for Motorsport Outcome Prediction Using Artificial Neural Networks and Genetic Algorithms
+"Mathematical Modeling and Optimization Techniques for Motorsport Outcome Prediction Using Artificial Neural Networks and Genetic Algorithms"
 
 This software integrates classical artificial neural networks (ANNs) based on backpropagation and genetic algorithms (GAs) for predicting motorsport race outcomes. In this case using free practice and race results from 2022 and 2023 formula one season. We delve into the mathematical foundations of backpropagation, elucidate the implementation of dynamic learning rate adjustment, describe the mutation process in GAs, and detail the computation of race result scores.
 
@@ -11,13 +11,13 @@ We found that the best mutation rate for making new models was around 20-30%. Bu
 
 ![graph](https://github.com/DARTHxMICHAEL/FaNNtasyRaceResultPredictions/assets/30693125/d625a5b8-86de-4c88-8366-263ce2527110)
 
-Saved layer of the neural network looks like this:
+Layer of the saved net looks like this:
 ![savednn](https://github.com/DARTHxMICHAEL/FaNNtasyRaceResultPredictions/assets/30693125/54037267-cdaa-43ec-b35c-a00700a63c04)
 
 When we look at the results, we have to round the numbers from the model's output, which can sometimes cause mistakes. Also, because we have a small amount of training data, our results are just okay. After trying nearly 5000 models, the best one got 95 points, but it had 33 mistakes. Then, after one round of changes with a 20% mutation rate, it got 131 points with 20 mistakes. Finally, after another round with the same method, it got 140 points with 21 mistakes.
 Even though a perfect score would be 240 points, we're not sure if our model is really understanding the data beyond what it's seen before. Our training data was limited, and our model might be getting stuck in local solutions. To improve it, we might need more data or more details about the races, like the track and weather conditions.
 
-Math behind the scene.:
+Math behind the scenes.:
 ![IMG_20240224_180229385~2](https://github.com/DARTHxMICHAEL/FaNNtasyRaceResultPredictions/assets/30693125/ce0f3974-67c5-47ab-95d9-5440dc5ac8a9)
 ![IMG_20240224_180244888~2](https://github.com/DARTHxMICHAEL/FaNNtasyRaceResultPredictions/assets/30693125/27ed472c-9ab7-4731-8196-e753ae9333c2)
 
